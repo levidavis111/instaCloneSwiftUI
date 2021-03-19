@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FeedView.swift
 //  swiftUIInstagram
 //
 //  Created by Levi Davis on 3/19/21.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FeedView: View {
     var body: some View {
-        MainTabView()
+        Text("Feed")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FeedView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FeedView()
     }
 }
