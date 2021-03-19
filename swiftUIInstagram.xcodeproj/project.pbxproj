@@ -17,6 +17,7 @@
 		FC538B0E26051E8600E36492 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B0D26051E8600E36492 /* NotificationView.swift */; };
 		FC538B1226051EFD00E36492 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B1126051EFD00E36492 /* ProfileView.swift */; };
 		FC538B1526051F1A00E36492 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B1426051F1A00E36492 /* UploadPostView.swift */; };
+		FC538B182605242400E36492 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B172605242400E36492 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		FC538B0D26051E8600E36492 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		FC538B1126051EFD00E36492 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		FC538B1426051F1A00E36492 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
+		FC538B172605242400E36492 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				FC538B0726051E4C00E36492 /* FeedView.swift */,
+				FC538B172605242400E36492 /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				FC538B1526051F1A00E36492 /* UploadPostView.swift in Sources */,
 				FC538B1226051EFD00E36492 /* ProfileView.swift in Sources */,
 				FC538B0E26051E8600E36492 /* NotificationView.swift in Sources */,
+				FC538B182605242400E36492 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
