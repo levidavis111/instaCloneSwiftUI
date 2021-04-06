@@ -23,6 +23,7 @@
 		FC538B2C261CE01C00E36492 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B2B261CE01C00E36492 /* UserCell.swift */; };
 		FC538B2F261CE03100E36492 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B2E261CE03100E36492 /* UserListView.swift */; };
 		FC538B32261CE7C400E36492 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B31261CE7C400E36492 /* Extenstions.swift */; };
+		FC538B35261CEAA600E36492 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B34261CEAA600E36492 /* NotificationCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		FC538B2B261CE01C00E36492 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		FC538B2E261CE03100E36492 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		FC538B31261CE7C400E36492 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		FC538B34261CEAA600E36492 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				FC538B0D26051E8600E36492 /* NotificationView.swift */,
+				FC538B34261CEAA600E36492 /* NotificationCell.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				FC538B26261B98D400E36492 /* SearchBar.swift in Sources */,
 				FC538B0E26051E8600E36492 /* NotificationView.swift in Sources */,
 				FC538B182605242400E36492 /* FeedCell.swift in Sources */,
+				FC538B35261CEAA600E36492 /* NotificationCell.swift in Sources */,
 				FC538B2F261CE03100E36492 /* UserListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
