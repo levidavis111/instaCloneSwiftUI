@@ -17,10 +17,14 @@ struct UserCell: View {
                 .frame(width: 48, height: 48)
                 .clipShape(Circle())
             //VStack -> userName, fullName
-            VStack {
+            VStack(alignment: .leading) {
                 Text("Doggus")
+                    .font(.system(size: 14, weight: .semibold))
+                    
                 Text("Dog von Doggus")
+                    .font(.system(size: 14))
             }
+            Spacer()
         }
     }
 }
