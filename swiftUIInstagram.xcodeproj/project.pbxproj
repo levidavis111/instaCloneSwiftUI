@@ -20,6 +20,8 @@
 		FC538B182605242400E36492 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B172605242400E36492 /* FeedCell.swift */; };
 		FC538B26261B98D400E36492 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B25261B98D400E36492 /* SearchBar.swift */; };
 		FC538B29261CDCC100E36492 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B28261CDCC100E36492 /* PostGridView.swift */; };
+		FC538B2C261CE01C00E36492 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B2B261CE01C00E36492 /* UserCell.swift */; };
+		FC538B2F261CE03100E36492 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B2E261CE03100E36492 /* UserListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		FC538B172605242400E36492 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		FC538B25261B98D400E36492 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		FC538B28261CDCC100E36492 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		FC538B2B261CE01C00E36492 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		FC538B2E261CE03100E36492 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				FC538B28261CDCC100E36492 /* PostGridView.swift */,
+				FC538B2B261CE01C00E36492 /* UserCell.swift */,
+				FC538B2E261CE03100E36492 /* UserListView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -325,9 +331,11 @@
 				FC538B0526051E1500E36492 /* MainTabView.swift in Sources */,
 				FC538B1526051F1A00E36492 /* UploadPostView.swift in Sources */,
 				FC538B1226051EFD00E36492 /* ProfileView.swift in Sources */,
+				FC538B2C261CE01C00E36492 /* UserCell.swift in Sources */,
 				FC538B26261B98D400E36492 /* SearchBar.swift in Sources */,
 				FC538B0E26051E8600E36492 /* NotificationView.swift in Sources */,
 				FC538B182605242400E36492 /* FeedCell.swift in Sources */,
+				FC538B2F261CE03100E36492 /* UserListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
