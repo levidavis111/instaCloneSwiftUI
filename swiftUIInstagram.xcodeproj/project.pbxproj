@@ -19,6 +19,7 @@
 		FC538B1526051F1A00E36492 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B1426051F1A00E36492 /* UploadPostView.swift */; };
 		FC538B182605242400E36492 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B172605242400E36492 /* FeedCell.swift */; };
 		FC538B26261B98D400E36492 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B25261B98D400E36492 /* SearchBar.swift */; };
+		FC538B29261CDCC100E36492 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B28261CDCC100E36492 /* PostGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FC538B1426051F1A00E36492 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		FC538B172605242400E36492 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		FC538B25261B98D400E36492 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FC538B28261CDCC100E36492 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 		FC538AFE260519BA00E36492 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				FC538B28261CDCC100E36492 /* PostGridView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			files = (
 				FC538B0B26051E7200E36492 /* SearchView.swift in Sources */,
 				FC538B0826051E4C00E36492 /* FeedView.swift in Sources */,
+				FC538B29261CDCC100E36492 /* PostGridView.swift in Sources */,
 				FC538ADF2605183C00E36492 /* swiftUIInstagramApp.swift in Sources */,
 				FC538AF52605195000E36492 /* ContentView.swift in Sources */,
 				FC538B0526051E1500E36492 /* MainTabView.swift in Sources */,
