@@ -22,6 +22,7 @@
 		FC538B29261CDCC100E36492 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B28261CDCC100E36492 /* PostGridView.swift */; };
 		FC538B2C261CE01C00E36492 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B2B261CE01C00E36492 /* UserCell.swift */; };
 		FC538B2F261CE03100E36492 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B2E261CE03100E36492 /* UserListView.swift */; };
+		FC538B32261CE7C400E36492 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B31261CE7C400E36492 /* Extenstions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		FC538B28261CDCC100E36492 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		FC538B2B261CE01C00E36492 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		FC538B2E261CE03100E36492 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		FC538B31261CE7C400E36492 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		FC538AEE260518AA00E36492 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				FC538B31261CE7C400E36492 /* Extenstions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			files = (
 				FC538B0B26051E7200E36492 /* SearchView.swift in Sources */,
 				FC538B0826051E4C00E36492 /* FeedView.swift in Sources */,
+				FC538B32261CE7C400E36492 /* Extenstions.swift in Sources */,
 				FC538B29261CDCC100E36492 /* PostGridView.swift in Sources */,
 				FC538ADF2605183C00E36492 /* swiftUIInstagramApp.swift in Sources */,
 				FC538AF52605195000E36492 /* ContentView.swift in Sources */,
