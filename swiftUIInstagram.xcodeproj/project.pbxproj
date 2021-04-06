@@ -24,6 +24,7 @@
 		FC538B2F261CE03100E36492 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B2E261CE03100E36492 /* UserListView.swift */; };
 		FC538B32261CE7C400E36492 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B31261CE7C400E36492 /* Extenstions.swift */; };
 		FC538B35261CEAA600E36492 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B34261CEAA600E36492 /* NotificationCell.swift */; };
+		FC538B38261CF16F00E36492 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B37261CF16F00E36492 /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		FC538B2E261CE03100E36492 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		FC538B31261CE7C400E36492 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
 		FC538B34261CEAA600E36492 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		FC538B37261CF16F00E36492 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				FC538B1126051EFD00E36492 /* ProfileView.swift */,
+				FC538B37261CF16F00E36492 /* ProfileHeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				FC538ADF2605183C00E36492 /* swiftUIInstagramApp.swift in Sources */,
 				FC538AF52605195000E36492 /* ContentView.swift in Sources */,
 				FC538B0526051E1500E36492 /* MainTabView.swift in Sources */,
+				FC538B38261CF16F00E36492 /* ProfileHeaderView.swift in Sources */,
 				FC538B1526051F1A00E36492 /* UploadPostView.swift in Sources */,
 				FC538B1226051EFD00E36492 /* ProfileView.swift in Sources */,
 				FC538B2C261CE01C00E36492 /* UserCell.swift in Sources */,
