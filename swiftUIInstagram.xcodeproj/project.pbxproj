@@ -28,6 +28,9 @@
 		FC538B3B261E174B00E36492 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B3A261E174B00E36492 /* UserStatView.swift */; };
 		FC538B3E261E1A3300E36492 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B3D261E1A3300E36492 /* ProfileActionButtonView.swift */; };
 		FC538B41261E2AA500E36492 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B40261E2AA500E36492 /* ImagePicker.swift */; };
+		FC538B44261E402200E36492 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B43261E402200E36492 /* LoginView.swift */; };
+		FC538B47261E403100E36492 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B46261E403100E36492 /* RegistrationView.swift */; };
+		FC538B4A261E403A00E36492 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B49261E403A00E36492 /* ResetPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		FC538B3A261E174B00E36492 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		FC538B3D261E1A3300E36492 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
 		FC538B40261E2AA500E36492 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FC538B43261E402200E36492 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FC538B46261E403100E36492 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		FC538B49261E403A00E36492 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +218,9 @@
 		FC538AFD260519B200E36492 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				FC538B43261E402200E36492 /* LoginView.swift */,
+				FC538B46261E403100E36492 /* RegistrationView.swift */,
+				FC538B49261E403A00E36492 /* ResetPasswordView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -344,9 +353,11 @@
 				FC538B0B26051E7200E36492 /* SearchView.swift in Sources */,
 				FC538B0826051E4C00E36492 /* FeedView.swift in Sources */,
 				FC538B32261CE7C400E36492 /* Extenstions.swift in Sources */,
+				FC538B47261E403100E36492 /* RegistrationView.swift in Sources */,
 				FC538B29261CDCC100E36492 /* PostGridView.swift in Sources */,
 				FC538ADF2605183C00E36492 /* swiftUIInstagramApp.swift in Sources */,
 				FC538AF52605195000E36492 /* ContentView.swift in Sources */,
+				FC538B4A261E403A00E36492 /* ResetPasswordView.swift in Sources */,
 				FC538B0526051E1500E36492 /* MainTabView.swift in Sources */,
 				FC538B41261E2AA500E36492 /* ImagePicker.swift in Sources */,
 				FC538B38261CF16F00E36492 /* ProfileHeaderView.swift in Sources */,
@@ -359,6 +370,7 @@
 				FC538B3E261E1A3300E36492 /* ProfileActionButtonView.swift in Sources */,
 				FC538B182605242400E36492 /* FeedCell.swift in Sources */,
 				FC538B35261CEAA600E36492 /* NotificationCell.swift in Sources */,
+				FC538B44261E402200E36492 /* LoginView.swift in Sources */,
 				FC538B2F261CE03100E36492 /* UserListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
