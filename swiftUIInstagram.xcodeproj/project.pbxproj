@@ -31,6 +31,8 @@
 		FC538B44261E402200E36492 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B43261E402200E36492 /* LoginView.swift */; };
 		FC538B47261E403100E36492 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B46261E403100E36492 /* RegistrationView.swift */; };
 		FC538B4A261E403A00E36492 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B49261E403A00E36492 /* ResetPasswordView.swift */; };
+		FC538B4D261E47A700E36492 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B4C261E47A700E36492 /* CustomTextField.swift */; };
+		FC538B50261E47B400E36492 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B4F261E47B400E36492 /* CustomSecureField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		FC538B43261E402200E36492 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FC538B46261E403100E36492 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		FC538B49261E403A00E36492 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		FC538B4C261E47A700E36492 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		FC538B4F261E47B400E36492 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 			children = (
 				FC538B31261CE7C400E36492 /* Extenstions.swift */,
 				FC538B40261E2AA500E36492 /* ImagePicker.swift */,
+				FC538B4C261E47A700E36492 /* CustomTextField.swift */,
+				FC538B4F261E47B400E36492 /* CustomSecureField.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -354,6 +360,7 @@
 				FC538B0826051E4C00E36492 /* FeedView.swift in Sources */,
 				FC538B32261CE7C400E36492 /* Extenstions.swift in Sources */,
 				FC538B47261E403100E36492 /* RegistrationView.swift in Sources */,
+				FC538B4D261E47A700E36492 /* CustomTextField.swift in Sources */,
 				FC538B29261CDCC100E36492 /* PostGridView.swift in Sources */,
 				FC538ADF2605183C00E36492 /* swiftUIInstagramApp.swift in Sources */,
 				FC538AF52605195000E36492 /* ContentView.swift in Sources */,
@@ -365,6 +372,7 @@
 				FC538B3B261E174B00E36492 /* UserStatView.swift in Sources */,
 				FC538B1226051EFD00E36492 /* ProfileView.swift in Sources */,
 				FC538B2C261CE01C00E36492 /* UserCell.swift in Sources */,
+				FC538B50261E47B400E36492 /* CustomSecureField.swift in Sources */,
 				FC538B26261B98D400E36492 /* SearchBar.swift in Sources */,
 				FC538B0E26051E8600E36492 /* NotificationView.swift in Sources */,
 				FC538B3E261E1A3300E36492 /* ProfileActionButtonView.swift in Sources */,
