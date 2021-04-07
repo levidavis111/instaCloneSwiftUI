@@ -38,17 +38,7 @@ struct ProfileHeaderView: View {
             
             HStack {
                 Spacer()
-                Button(action: {}, label: {
-                    Text("Edit Profile")
-                        .font(.system(size: 14, weight: .semibold))
-                        .frame(width: 360, height: 32)
-                        .background(Color(.white))
-                        .foregroundColor(.black)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 3)
-                                .stroke(Color.gray, lineWidth: 1)
-                        )
-                })
+                ProfileActionButtonView()
                 Spacer()
             }
             .padding(.top)
