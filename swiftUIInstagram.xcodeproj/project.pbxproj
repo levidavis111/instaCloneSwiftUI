@@ -27,6 +27,7 @@
 		FC538B38261CF16F00E36492 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B37261CF16F00E36492 /* ProfileHeaderView.swift */; };
 		FC538B3B261E174B00E36492 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B3A261E174B00E36492 /* UserStatView.swift */; };
 		FC538B3E261E1A3300E36492 /* ProfileActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B3D261E1A3300E36492 /* ProfileActionButtonView.swift */; };
+		FC538B41261E2AA500E36492 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B40261E2AA500E36492 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		FC538B37261CF16F00E36492 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		FC538B3A261E174B00E36492 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		FC538B3D261E1A3300E36492 /* ProfileActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActionButtonView.swift; sourceTree = "<group>"; };
+		FC538B40261E2AA500E36492 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				FC538B31261CE7C400E36492 /* Extenstions.swift */,
+				FC538B40261E2AA500E36492 /* ImagePicker.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				FC538ADF2605183C00E36492 /* swiftUIInstagramApp.swift in Sources */,
 				FC538AF52605195000E36492 /* ContentView.swift in Sources */,
 				FC538B0526051E1500E36492 /* MainTabView.swift in Sources */,
+				FC538B41261E2AA500E36492 /* ImagePicker.swift in Sources */,
 				FC538B38261CF16F00E36492 /* ProfileHeaderView.swift in Sources */,
 				FC538B1526051F1A00E36492 /* UploadPostView.swift in Sources */,
 				FC538B3B261E174B00E36492 /* UserStatView.swift in Sources */,

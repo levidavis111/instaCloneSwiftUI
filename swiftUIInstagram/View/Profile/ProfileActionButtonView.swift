@@ -16,7 +16,7 @@ struct ProfileActionButtonView: View {
                 Text("Edit Profile")
                     .font(.system(size: 14, weight: .semibold))
                     .frame(width: 360, height: 32)
-                    .background(Color(.white))
+                    .background(Color.white)
                     .foregroundColor(.black)
                     .overlay(
                         RoundedRectangle(cornerRadius: 3)
@@ -44,7 +44,7 @@ struct ProfileActionButtonView: View {
                     Text("Message")
                         .font(.system(size: 14, weight: .semibold))
                         .frame(width: 172, height: 32)
-                        .background(Color(.white))
+                        .background(Color.white)
                         .foregroundColor(.black)
                         .overlay(
                             RoundedRectangle(cornerRadius: 3)
