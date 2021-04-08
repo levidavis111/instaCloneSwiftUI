@@ -12,6 +12,9 @@ struct RegistrationView: View {
     @State private var userName = ""
     @State private var fullName = ""
     @State private var password = ""
+    @State private var selectedImage: UIImage?
+    @State private var postImage: Image?
+    @State var imagePickerPresented = false
     @Environment(\.presentationMode) var mode
     
     var body: some View {
@@ -19,15 +22,28 @@ struct RegistrationView: View {
             LinearGradient(gradient: Gradient(colors: [Color.purple, Color.blue]), startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
             VStack {
-                Button(action: {}, label: {
-                    Image(systemName: "plus.circle")
-                        .renderingMode(.template)
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 140, height: 140)
-                        .foregroundColor(.white)
-                })
-                .padding()
+                    if let postImage = postImage {
+                        postImage
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 140, height: 140)
+                            .clipShape(Circle())
+    //                        .foregroundColor(.white)
+                            .padding()
+                            
+                    } else {
+                        Button(action: {imagePickerPresented.toggle()}, label: {
+                            Image(systemName: "plus.circle")
+                                .renderingMode(.template)
+                                .resizable()
+                                .scaledToFill()
+                                .frame(width: 140, height: 140)
+                                .foregroundColor(.white)
+                        }).sheet(isPresented: $imagePickerPresented, onDismiss: loadImage, content: {
+                            ImagePicker(image: $selectedImage)
+                        })
+                        .padding()
+                    }
                 
                 VStack(spacing: 20) {
                     //email field
@@ -88,6 +104,13 @@ struct RegistrationView: View {
             }
             .padding(.top, -16)
         }
+    }
+}
+
+extension RegistrationView {
+    func loadImage() {
+        guard let selectedImage = selectedImage else {return}
+        postImage = Image(uiImage: selectedImage)
     }
 }
 
