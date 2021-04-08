@@ -41,6 +41,7 @@
 		FC538B66261F633300E36492 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FC538B65261F633300E36492 /* Kingfisher */; };
 		FC538B69261F640B00E36492 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC538B68261F640B00E36492 /* GoogleService-Info.plist */; };
 		FC538B6C261F97C400E36492 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B6B261F97C400E36492 /* AuthViewModel.swift */; };
+		FC538B70261FA84C00E36492 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B6F261FA84C00E36492 /* ImageUploader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		FC538B4F261E47B400E36492 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		FC538B68261F640B00E36492 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FC538B6B261F97C400E36492 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		FC538B6F261FA84C00E36492 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		FC538AEF260518B100E36492 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				FC538B6F261FA84C00E36492 /* ImageUploader.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				FC538B32261CE7C400E36492 /* Extenstions.swift in Sources */,
 				FC538B47261E403100E36492 /* RegistrationView.swift in Sources */,
 				FC538B4D261E47A700E36492 /* CustomTextField.swift in Sources */,
+				FC538B70261FA84C00E36492 /* ImageUploader.swift in Sources */,
 				FC538B29261CDCC100E36492 /* PostGridView.swift in Sources */,
 				FC538ADF2605183C00E36492 /* swiftUIInstagramApp.swift in Sources */,
 				FC538AF52605195000E36492 /* ContentView.swift in Sources */,
