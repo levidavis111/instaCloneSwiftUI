@@ -17,8 +17,12 @@ class AuthViewModel: ObservableObject {
         userSession = auth.currentUser
     }
     
-    func login() {
-        print("Login")
+    func login(email: String, password: String) {
+        auth.signIn(withEmail: email, password: password) { (result, error) in
+            if let error = error {print(error.localizedDescription); return}
+            guard let user = result?.user else {return}
+            self.userSession = user
+        }
     }
     
     func register(email: String, password: String, image: UIImage?, fullName: String,
@@ -26,7 +30,7 @@ class AuthViewModel: ObservableObject {
         guard let image = image else {return}
         ImageUploader.uploadImage(image: image) {[weak self] (imageURL) in
             self?.auth.createUser(withEmail: email, password: password) { result, error in
-                guard error == nil else {print(error?.localizedDescription as Any); return}
+                if let error = error {print(error.localizedDescription); return}
                 guard let user = result?.user else {print("No user"); return}
                 print("User succesfully registered")
                 
