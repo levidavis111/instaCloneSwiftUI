@@ -40,6 +40,7 @@
 		FC538B5E261F620000E36492 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FC538B5D261F620000E36492 /* FirebaseMessaging */; };
 		FC538B66261F633300E36492 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FC538B65261F633300E36492 /* Kingfisher */; };
 		FC538B69261F640B00E36492 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC538B68261F640B00E36492 /* GoogleService-Info.plist */; };
+		FC538B6C261F97C400E36492 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B6B261F97C400E36492 /* AuthViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		FC538B4C261E47A700E36492 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		FC538B4F261E47B400E36492 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		FC538B68261F640B00E36492 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC538B6B261F97C400E36492 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +275,7 @@
 		FC538B0126051A0400E36492 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				FC538B6B261F97C400E36492 /* AuthViewModel.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				FC538B26261B98D400E36492 /* SearchBar.swift in Sources */,
 				FC538B0E26051E8600E36492 /* NotificationView.swift in Sources */,
 				FC538B3E261E1A3300E36492 /* ProfileActionButtonView.swift in Sources */,
+				FC538B6C261F97C400E36492 /* AuthViewModel.swift in Sources */,
 				FC538B182605242400E36492 /* FeedCell.swift in Sources */,
 				FC538B35261CEAA600E36492 /* NotificationCell.swift in Sources */,
 				FC538B44261E402200E36492 /* LoginView.swift in Sources */,
