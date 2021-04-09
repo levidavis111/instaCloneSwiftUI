@@ -45,6 +45,7 @@
 		FC538B822620A1E900E36492 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FC538B812620A1E900E36492 /* FirebaseAuth */; };
 		FC538B842620A1E900E36492 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FC538B832620A1E900E36492 /* FirebaseFirestore */; };
 		FC538B862620A1E900E36492 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FC538B852620A1E900E36492 /* FirebaseMessaging */; };
+		FC538B8A2620A5F700E36492 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B892620A5F700E36492 /* SearchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		FC538B6F261FA84C00E36492 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		FC538B7226209C8100E36492 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FC538B762620A08F00E36492 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		FC538B892620A5F700E36492 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		FC538AF0260518B500E36492 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FC538B882620A5E700E36492 /* Search */,
 				FC538B0226051A0E00E36492 /* Profile */,
 				FC538B0126051A0400E36492 /* Authentication */,
 				FC538B00260519F700E36492 /* Notifications */,
@@ -316,6 +319,14 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		FC538B882620A5E700E36492 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FC538B892620A5F700E36492 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -417,6 +428,7 @@
 				FC538B3B261E174B00E36492 /* UserStatView.swift in Sources */,
 				FC538B1226051EFD00E36492 /* ProfileView.swift in Sources */,
 				FC538B2C261CE01C00E36492 /* UserCell.swift in Sources */,
+				FC538B8A2620A5F700E36492 /* SearchViewModel.swift in Sources */,
 				FC538B50261E47B400E36492 /* CustomSecureField.swift in Sources */,
 				FC538B26261B98D400E36492 /* SearchBar.swift in Sources */,
 				FC538B0E26051E8600E36492 /* NotificationView.swift in Sources */,
