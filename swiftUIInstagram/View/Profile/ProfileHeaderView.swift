@@ -41,7 +41,7 @@ struct ProfileHeaderView: View {
             
             HStack {
                 Spacer()
-                ProfileActionButtonView(isCurrentUser: viewModel.user.isCurrentUser)
+                ProfileActionButtonView(viewModel: viewModel)
                 Spacer()
             }
             .padding(.top)
