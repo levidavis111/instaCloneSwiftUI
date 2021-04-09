@@ -66,7 +66,7 @@ class AuthViewModel: ObservableObject {
         guard let uid = userSession?.uid else {return}
         store.collection(Collection.users).document(uid).getDocument { (snapshot, _) in
             do {
-                let user = try snapshot?.data(as: AppUser.self)
+                let _ = try snapshot?.data(as: AppUser.self)
             } catch {
                 print(error.localizedDescription)
             }
