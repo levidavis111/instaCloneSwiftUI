@@ -13,8 +13,10 @@ class AuthViewModel: ObservableObject {
     static let shared = AuthViewModel()
     let auth = Auth.auth()
     let store = Firestore.firestore()
+    
     init() {
         userSession = auth.currentUser
+        fetchUser()
     }
     
     func login(email: String, password: String) {
@@ -40,7 +42,7 @@ class AuthViewModel: ObservableObject {
                             "profileImageURL": imageURL,
                             "uid": user.uid]
                 
-                self?.store.collection("/users").document(user.uid).setData(data, completion: { _ in
+                self?.store.collection(Collection.users).document(user.uid).setData(data, completion: { _ in
                     self?.userSession = user
                 })
             }
@@ -61,6 +63,14 @@ class AuthViewModel: ObservableObject {
     }
     
     func fetchUser() {
+        guard let uid = userSession?.uid else {return}
+        store.collection(Collection.users).document(uid).getDocument { (snapshot, _) in
+            do {
+                let user = try snapshot?.data(as: AppUser.self)
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
         
     }
 }
