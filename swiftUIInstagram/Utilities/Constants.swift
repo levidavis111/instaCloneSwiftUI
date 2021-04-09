@@ -13,7 +13,7 @@ enum Collection {
     static let users = "users"
     static let followers = "followers"
     static let following = "following"
-    static let userFolloring = "user-following"
+    static let userFollowing = "user-following"
     static let userFollowers = "user-followers"
 }
 

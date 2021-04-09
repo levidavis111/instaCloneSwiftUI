@@ -15,12 +15,19 @@ struct UserService {
         guard let currentUid = AuthViewModel.shared.userSession?.uid else {return}
         
         store.collection(Collection.following).document(currentUid)
-            .collection(Collection.userFolloring).document(uid).setData([:]) { _ in
+            .collection(Collection.userFollowing).document(uid).setData([:]) { _ in
                 store.collection(Collection.followers).document(uid).collection(Collection.userFollowers).document(currentUid).setData([:], completion: completion)
             }
     }
     
-    static func unfollow() {}
+    static func unfollow(uid: String, completion: ((Error?) -> Void )?) {
+        guard let currentUid = AuthViewModel.shared.userSession?.uid else {return}
+        
+        store.collection(Collection.following).document(currentUid)
+            .collection(Collection.userFollowing).document(uid).delete { _ in
+                store.collection(Collection.followers).document(currentUid).delete(completion: completion)
+            }
+    }
     
     static func checkIfUserIsFollowed() {}
 }
