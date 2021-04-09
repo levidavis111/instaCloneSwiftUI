@@ -9,11 +9,12 @@ import SwiftUI
 import Kingfisher
 
 struct ProfileHeaderView: View {
-    let appUser: AppUser
+    @ObservedObject var viewModel: ProfileViewModel
+    
     var body: some View {
         VStack(alignment: .leading) {
             HStack {
-                KFImage(URL(string: appUser.profileImageURL))
+                KFImage(URL(string: viewModel.user.profileImageURL))
                     .resizable()
                     .scaledToFill()
                     .frame(width: 80, height: 80)
@@ -29,7 +30,7 @@ struct ProfileHeaderView: View {
                 }
                 .padding(.trailing, 32)
             }
-            Text(appUser.fullName)
+            Text(viewModel.user.fullName)
                 .font(.system(size: 15, weight: .semibold))
                 .padding([.leading, .top])
             //bio tk
@@ -40,7 +41,7 @@ struct ProfileHeaderView: View {
             
             HStack {
                 Spacer()
-                ProfileActionButtonView(isCurrentUser: appUser.isCurrentUser)
+                ProfileActionButtonView(isCurrentUser: viewModel.user.isCurrentUser)
                 Spacer()
             }
             .padding(.top)
