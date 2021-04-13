@@ -15,5 +15,6 @@ enum Collection {
     static let following = "following"
     static let userFollowing = "user-following"
     static let userFollowers = "user-followers"
+    static let posts = "posts"
 }
 

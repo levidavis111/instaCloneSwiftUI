@@ -48,6 +48,7 @@
 		FC538B8F2620B04B00E36492 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FC538B8E2620B04B00E36492 /* Kingfisher */; };
 		FC538B922620C7B000E36492 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B912620C7B000E36492 /* ProfileViewModel.swift */; };
 		FC538B952620CBC400E36492 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538B942620CBC400E36492 /* UserService.swift */; };
+		FC538C3F26260EF500E36492 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC538C3E26260EF500E36492 /* UploadPostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		FC538B892620A5F700E36492 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		FC538B912620C7B000E36492 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		FC538B942620CBC400E36492 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		FC538C3E26260EF500E36492 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 		FC538AF0260518B500E36492 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FC538C3D26260EE500E36492 /* Upload */,
 				FC538B882620A5E700E36492 /* Search */,
 				FC538B0226051A0E00E36492 /* Profile */,
 				FC538B0126051A0400E36492 /* Authentication */,
@@ -333,6 +336,14 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
+		FC538C3D26260EE500E36492 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				FC538C3E26260EF500E36492 /* UploadPostViewModel.swift */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -427,6 +438,7 @@
 				FC538ADF2605183C00E36492 /* swiftUIInstagramApp.swift in Sources */,
 				FC538AF52605195000E36492 /* ContentView.swift in Sources */,
 				FC538B4A261E403A00E36492 /* ResetPasswordView.swift in Sources */,
+				FC538C3F26260EF500E36492 /* UploadPostViewModel.swift in Sources */,
 				FC538B0526051E1500E36492 /* MainTabView.swift in Sources */,
 				FC538B41261E2AA500E36492 /* ImagePicker.swift in Sources */,
 				FC538B952620CBC400E36492 /* UserService.swift in Sources */,
